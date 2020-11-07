@@ -1,0 +1,63 @@
+.confirm {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image: url('../../images/hannyjaime5-bw.jpeg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+}
+
+.confirm-form {
+    background-color: rgba(0, 0, 0, 0.49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    border: 9px solid white;
+}
+.confirm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.confirm-title {
+    font-family: PlayFairDisplayBold, serif;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 17px;
+    color:white;//to update
+}
+.confirm-detail {
+    font-family: PlayFairDisplayItalic, serif;
+    font-size: 25px;
+    padding-bottom: 13px;
+    color: white;
+}
+.btn-search {
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    // margin: 4px 2px;
+    cursor: pointer;
+}
+
+.confirm-input {
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--inputs-bg-color) !important;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 0px;
+    border-style: solid;
+    // width: 100%;
+    text-transform: uppercase;
+}
