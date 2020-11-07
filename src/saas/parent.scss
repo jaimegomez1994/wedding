@@ -1,13 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
     //mobile file
-    @import "mobile";
+    @import "./mobile/navbar-mobile";
+    @import "./mobile/home-mobile";
+    @import "./mobile/confirm-mobile";
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 500px) {
     //desktop file
-     @import "desktop";
+     @import "./desktop/navbar-desktop";
+     @import "./desktop/home-desktop";
+     @import "./desktop/confirm-desktop";
 }
 
 // /* Medium devices (landscape tablets, 768px and up) */
@@ -15,3 +19,7 @@
 
 // /* Large devices (laptops/desktops, 992px and up) */
 // @media only screen and (min-width: 992px) {}
+
+
+//All devices
+html,body, #root{ margin:0; padding:0; height:100%; width:100%; }

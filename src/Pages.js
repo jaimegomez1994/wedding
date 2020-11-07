@@ -12,6 +12,14 @@ const Pages = () => {
                 Sábado 26 de diciembre 2020
             </span>
         </div>
+        <div id="confirm" className="confirm">
+            {/* <div className="names">
+                HANNY & JAIME
+            </div>
+            <span className="fecha"><br></br>
+                Sábado 26 de diciembre 2020
+            </span> */}
+        </div>
         {/* <div id="home2" className="first-page">
             <div className="names">
                 HANNY & JAIME

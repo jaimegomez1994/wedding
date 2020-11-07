@@ -1,0 +1,37 @@
+.first-page {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image: url('../../images/hannyjaime-mobile.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #b4afaf;
+    background-size:cover;
+}
+.names {
+    font-family: PlayFairDisplayBold, serif;
+    position: absolute;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.fecha {
+    font-family: PlayFairDisplayItalic, serif;
+    position: absolute;
+    top: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}

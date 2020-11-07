@@ -1,0 +1,34 @@
+// html,body, #root{ margin:0; padding:0; height:100%; width:100%; }
+.navigation {
+	width: 100%;
+    background-color: white !important;
+    height: 100px;
+    list-style-type: none;
+    position: fixed;
+}
+
+.navigation-top {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: PlayFairDisplayBold, serif;
+    font-size: 27px!important;
+    line-height: 24px!important;
+    color:black;
+    font-weight: 800;
+}
+.navigation-bottom {
+    list-style-type: none;
+    display: flex;
+    font-family: PlayFairDisplayItalic, serif;
+    justify-content: space-evenly;
+    li a {
+        text-decoration: none;
+        color:black;
+        text-transform: uppercase;
+    }
+
+}
+.icon-container {
+    display: none;
+}

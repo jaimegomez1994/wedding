@@ -1,84 +1,84 @@
-html,body, #root{ margin:0; padding:0; height:100%; width:100%; }
-.navigation {
-	width: 100%;
-    background-color: white !important;
-    height: 100px;
-    list-style-type: none;
-    position: fixed;
-}
+// // html,body, #root{ margin:0; padding:0; height:100%; width:100%; }
+// .navigation {
+// 	width: 100%;
+//     background-color: white !important;
+//     height: 100px;
+//     list-style-type: none;
+//     position: fixed;
+// }
 
-.navigation-top {
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    font-family: PlayFairDisplayBold, serif;
-    font-size: 27px!important;
-    line-height: 24px!important;
-    color:black;
-    font-weight: 800;
-}
-.navigation-bottom {
-    list-style-type: none;
-    display: flex;
-    font-family: PlayFairDisplayItalic, serif;
-    justify-content: space-evenly;
-    li a {
-        text-decoration: none;
-        color:black;
-        text-transform: uppercase;
-    }
+// .navigation-top {
+//     padding: 10px;
+//     display: flex;
+//     justify-content: space-evenly;
+//     font-family: PlayFairDisplayBold, serif;
+//     font-size: 27px!important;
+//     line-height: 24px!important;
+//     color:black;
+//     font-weight: 800;
+// }
+// .navigation-bottom {
+//     list-style-type: none;
+//     display: flex;
+//     font-family: PlayFairDisplayItalic, serif;
+//     justify-content: space-evenly;
+//     li a {
+//         text-decoration: none;
+//         color:black;
+//         text-transform: uppercase;
+//     }
 
-}
-.icon-container {
-    display: none;
-}
-.names {
-    font-family: PlayFairDisplayBold, serif;
-    position: absolute;
-    top: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0; 
-    text-align: center;
-    color:white;
-    font-size: 90px;
-    font-weight: 500;
-}
-.fecha {
-    font-family: PlayFairDisplayItalic, serif;
-    position: absolute;
-    top: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0; 
-    text-align: center;
-    color: white;
-    font-size: 27px;
-    text-transform: uppercase;
-}
-.detalle {
-    font-family: PlayFairDisplayItalic, serif;
-    position: absolute;
-    top: 60%;
-    left: 38%;
-    color:white;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.hours {
-    font-weight: 700;
-}
+// }
+// .icon-container {
+//     display: none;
+// }
+// .names {
+//     font-family: PlayFairDisplayBold, serif;
+//     position: absolute;
+//     top: 40%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     left: 0;
+//     right: 0; 
+//     text-align: center;
+//     color:white;
+//     font-size: 90px;
+//     font-weight: 500;
+// }
+// .fecha {
+//     font-family: PlayFairDisplayItalic, serif;
+//     position: absolute;
+//     top: 50%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     left: 0;
+//     right: 0; 
+//     text-align: center;
+//     color: white;
+//     font-size: 27px;
+//     text-transform: uppercase;
+// }
+// .detalle {
+//     font-family: PlayFairDisplayItalic, serif;
+//     position: absolute;
+//     top: 60%;
+//     left: 38%;
+//     color:white;
+//     font-size: 15px;
+//     font-weight: 500;
+//     text-transform: uppercase;
+// }
+// .hours {
+//     font-weight: 700;
+// }
 
-.first-page {
-    height:100%;
-    width:100%;
-    overflow:hidden;
-    background-image: url('../images/hannyjaime7.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-color: #b4afaf;
-    background-size:cover;
-}
+// .first-page {
+//     height:100%;
+//     width:100%;
+//     overflow:hidden;
+//     background-image: url('../images/hannyjaime7.png');
+//     background-repeat: no-repeat;
+//     background-position-x: center;
+//     background-color: #b4afaf;
+//     background-size:cover;
+// }
