@@ -8,18 +8,18 @@ const Pages = () => {
             <div className="names">
                 HANNY & JAIME
             </div>
-            <div className="fecha">
+            <span className="fecha"><br></br>
                 Sábado 26 de diciembre 2020
-            </div>
+            </span>
         </div>
-        <div id="home2" className="first-page">
+        {/* <div id="home2" className="first-page">
             <div className="names">
                 HANNY & JAIME
             </div>
             <div className="fecha">
                 Sábado 26 de diciembre 2020
             </div>
-        </div>
+        </div> */}
         </>
     );
 }
