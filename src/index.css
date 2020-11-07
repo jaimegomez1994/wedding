@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'AbrilFatFace';
+  src: local('AbrilFatFace'), url(./fonts/AbrilFatface-Regular.ttf) format('truetype');
+
+  font-family: 'PlayFairDisplayItalic';
+  src: local('PlayFairDisplayItalic'), url(./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf) format('truetype');
+  
+  font-family: 'PlayFairDisplay';
+  src: local('PlayFairDisplay'), url(./fonts/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+
+  font-family: 'PlayFairDisplayBold';
+  src: local('PlayFairDisplayBold'), url(./fonts/PlayfairDisplay-Bold.ttf) format('truetype');
+}

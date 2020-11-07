@@ -1,0 +1,73 @@
+html,body, #root{ margin:0; padding:0; height:100%; width:100%; }
+.navigation {
+    position: absolute;
+    list-style-type: none;
+}
+.navigation-mobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: 0.2s;
+}
+.first-page {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image: url('../images/hannyjaime-mobile.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #b4afaf;
+    background-size:cover;
+}
+.navigation-container {
+    display: none;
+}
+.navigation-bottom {
+    list-style-type: none;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: PlayFairDisplayItalic, serif;
+    padding-top: 40px;
+    li {
+        padding-bottom: 60px; 
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color:black;
+            text-transform: uppercase;
+        }
+    }
+}
+.names {
+    font-family: PlayFairDisplayBold, serif;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    color:white;
+    font-size: 35px;
+    font-weight: 500;
+}
+.navigation-top {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.fecha {
+    font-family: PlayFairDisplayItalic, serif;
+    position: absolute;
+    top: 49%;
+    left: 19%;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
