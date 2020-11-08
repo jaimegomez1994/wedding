@@ -18,6 +18,7 @@
     font-weight: 800;
 }
 .navigation-bottom {
+    padding-top: 10px;
     list-style-type: none;
     display: flex;
     font-family: PlayFairDisplayItalic, serif;
@@ -32,3 +33,9 @@
 .icon-container {
     display: none;
 }
+
+.navigation-container {
+    // width: 100%;
+}
+$link-hover-color: grey;
+$link-color: grey;

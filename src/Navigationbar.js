@@ -19,7 +19,7 @@ const ShowNavigation = () => {
 const Navigationbar = () => { 
     return (
         <>
-        <div id="nav" className="navigation navigation-mobile d-flex">
+        <div id="nav" className="navigation navigation-mobile">
             <a class="icon-container" >
                 <FontAwesomeIcon
                     className="menu-icon"
