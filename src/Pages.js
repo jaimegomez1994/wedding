@@ -81,7 +81,7 @@ const Pages = () => {
                 Sábado 26 de diciembre 2020
             </span>
         </div>
-            <div id="confirm" className="confirm">
+        <div id="confirm" className="confirm">
             <div className="confirm-container">
                 <form id="confirm-form" className="confirm-display confirm-form" onSubmit={submitHandlerConfirm}>
                     <div className="confirm-title">Confirmación</div>
