@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ShowNavigation = () => {
     var menu = document.getElementById("navigation-container");
     var menuMobile = document.getElementById("nav");
-    console.log('menu',menu);
     if (menu.style.display === "block") {
         menu.style.display = "none";
         menuMobile.style.width = "0";

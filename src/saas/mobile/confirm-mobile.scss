@@ -2,7 +2,6 @@
     height:100%;
     width:100%;
     overflow:hidden;
-    // background-image: url('../../images/hannyjaime7.png');
     background-image: url('../../images/hannyjaime5-bw.jpeg');
     background-repeat: no-repeat;
     background-position-x: center;
@@ -10,7 +9,7 @@
     background-size:cover;
 }
 
-.confirm-form {
+.confirm-display {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,11 +24,15 @@
     height: 100%;
 }
 .confirm-title {
+    text-align: center;
     font-family: PlayFairDisplayBold, serif;
     font-weight: 500;
     font-size: 35px;
     padding-bottom: 17px;
     color:white;//to update
+}
+.confirm-title-list {
+    font-size: 26px;
 }
 .confirm-detail {
     font-family: PlayFairDisplayItalic, serif;
@@ -37,8 +40,11 @@
     padding-bottom: 13px;
     color: white;
 }
+.confirm-detail-list {
+    font-size: 19px;
+}
 .btn-search {
-    margin-top: 20px;
+    margin-top: 46px;
     background-color: white;
     border: none;
     color: black;
@@ -65,5 +71,14 @@
 }
 
 .confirm-list {
-    // display: none;
+    display: none;
+}
+
+.invitado {
+    color: white;
+}
+
+.confirm-ready {
+    display: none;
+    padding : 100px 90px;
 }
