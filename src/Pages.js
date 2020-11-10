@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./saas/parent.scss";
 import { db } from "./services/firebase.js"
-
-
+import { faGift } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const Pages = () => { 
@@ -148,6 +148,72 @@ const Pages = () => {
                 </form>    
 
 
+            </div>
+        </div>
+        <div id="direccion" className="direccion">
+            <div className="name-detail">
+                {/* Direccion */}
+            </div>
+            <div className="iglesia">
+                <div>
+                    <div className="iglesia-titulo">
+                        Catedral Metropolitana de Monterrey
+                    </div>
+                    <div className="iglesia-hora">
+                       Ceremonia Religiosa: 2:30 pm
+                    </div>
+                    <div className="iglesia-direccion">
+                        Juan Zuazua 1100 Sur, Centro 64000 Monterrey, Nuevo León
+                    </div>
+                    <div className="iglesia-mapa">
+                        <a href="http://maps.google.com/?q=Catedral Metropolitana de Monterrey">
+                            Ver direccion
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className="salon">
+                <div>
+                    <div className="iglesia-titulo salon-titulo-desktop">
+                        Crowne Plaza Monterrey
+                    </div>
+                    <div className="iglesia-hora salon-civil">
+                       Civil : 5:00 pm
+                    </div>
+                    <div className="iglesia-hora">
+                       Recepción : 5:00 pm
+                    </div>
+                    <div className="iglesia-direccion">
+                        Constitución Oriente 300, Centro 64000 Monterrey, Nuevo León
+                    </div>
+                    <div className="iglesia-mapa">
+                        <a href="http://maps.google.com/?q=crowne plaza monterrey centro">
+                            Ver direccion
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="regalo" className="regalo">
+            <div className="name-detail">
+                    {/* Direccion */}
+                <FontAwesomeIcon
+                    className="menu-icon"
+                    icon={faGift}
+                    // onClick={ ShowNavigation}
+                    //swipe left
+                />
+            </div>
+            <div className="iglesia">
+                <div>
+                    <div className="iglesia-titulo">
+                        Mesa de regalos
+                    </div>
+                    <div className="image-liverpool"></div>
+                    <div className="iglesia-hora">
+                       50462090
+                    </div>
+                </div>
             </div>
         </div>
         </>

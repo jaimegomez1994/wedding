@@ -1,0 +1,53 @@
+.name-detail {
+    padding-top: 200px;
+    text-align: center;
+    font-family: PlayFairDisplayBold, serif;
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 17px;
+    color:black;
+}
+.iglesia-titulo {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: PlayFairDisplayBold, serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 17px;
+    color:black;
+}
+.iglesia-hora {
+    text-align: center;
+    font-family: PlayFairDisplayItalic, italic;
+    // font-family: PlayFairDisplayBold, serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 17px;
+    color:black;
+}
+.iglesia-direccion {
+    text-align: center;
+    font-family: PlayFairDisplayItalic, serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 17px;
+    color:black;
+}
+.iglesia-mapa {
+    a {
+        color:rgb(95, 94, 94);
+    }
+    text-transform: uppercase;
+    text-align: center;
+    font-family: PlayFairDisplayItalic, serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-bottom: 17px;
+    color:black;
+}
+.salon {
+    padding-top: 40px;
+}
+.salon-civil {
+    padding-bottom: 7px !important;
+}

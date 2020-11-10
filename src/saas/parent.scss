@@ -4,6 +4,8 @@
     @import "./mobile/navbar-mobile";
     @import "./mobile/home-mobile";
     @import "./mobile/confirm-mobile";
+    @import "./mobile/direccion-mobile";
+    @import "./mobile/regalo-mobile";
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -12,6 +14,17 @@
      @import "./desktop/navbar-desktop";
      @import "./desktop/home-desktop";
      @import "./desktop/confirm-desktop";
+     @import "./desktop/regalo-desktop";
+     @import "./desktop/direccion-desktop";
+     .name-detail {
+        padding-top: 200px;
+        text-align: center;
+        font-family: PlayFairDisplayBold, serif;
+        font-weight: 500;
+        font-size: 45px;
+        padding-bottom: 17px;
+        color:black;
+     }
 }
 
 // /* Medium devices (landscape tablets, 768px and up) */
@@ -23,3 +36,6 @@
 
 //All devices
 html,body, #root{ margin:0; padding:0; height:100%; width:100%; }
+
+@import "./direccion.scss";
+@import "./regalo.scss";

@@ -32,8 +32,8 @@ const Navigationbar = () => {
                 <ul id="nav" className="navigation-bottom">
                     <li><a href="#home">¡Bienvenidos!</a></li>
                     <li><a href="#confirm">Confirma tu asistencia</a></li>
-                    <li><a href="#home3">Direccion</a></li>
-                    <li><a href="#home4">Mesa de regalos</a></li>
+                    <li><a href="#direccion">Direccion</a></li>
+                    <li><a href="#regalo">Mesa de regalos</a></li>
                 </ul>
             </div>
         </div>
