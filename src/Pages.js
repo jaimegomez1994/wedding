@@ -17,6 +17,7 @@ const Pages = () => {
     const handleConfirm = (e,index) => { 
         var newInvitados = [...invitados];
         newInvitados[index].confirmar = !newInvitados[index].confirmar;
+        newInvitados[index].dateUpdated =new Date();
         setInvitados(newInvitados);
 
     }
