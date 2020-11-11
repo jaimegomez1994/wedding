@@ -212,7 +212,7 @@ const Pages = () => {
                     <div className="image-liverpool"></div>
                     <div className="iglesia-mapa">
                         <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50462090">
-                            50462090
+                            Mesa Hanny y Jaime número de evento: 50462090
                         </a>
                     </div>
                 </div>
