@@ -70,6 +70,11 @@ const Pages = () => {
             { "invitados":  invitados  }
         );
     }
+    useEffect(() => {
+        if (window.location.search.length === 11) {
+            setID(window.location.search.substring(6));
+        }
+    });
 
     return (
         <>
@@ -196,12 +201,9 @@ const Pages = () => {
         </div>
         <div id="regalo" className="regalo">
             <div className="name-detail">
-                    {/* Direccion */}
                 <FontAwesomeIcon
                     className="menu-icon"
                     icon={faGift}
-                    // onClick={ ShowNavigation}
-                    //swipe left
                 />
             </div>
             <div className="iglesia">
