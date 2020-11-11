@@ -181,7 +181,7 @@ const Pages = () => {
                        Civil : 5:00 pm
                     </div>
                     <div className="iglesia-hora">
-                       Recepción : 5:00 pm
+                       Recepción : 6:00 pm
                     </div>
                     <div className="iglesia-direccion">
                         Constitución Oriente 300, Centro 64000 Monterrey, Nuevo León
@@ -210,8 +210,10 @@ const Pages = () => {
                         Mesa de regalos
                     </div>
                     <div className="image-liverpool"></div>
-                    <div className="iglesia-hora">
-                       50462090
+                    <div className="iglesia-mapa">
+                        <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50462090">
+                            50462090
+                        </a>
                     </div>
                 </div>
             </div>
