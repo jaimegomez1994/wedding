@@ -34,7 +34,7 @@ const closeLeftMenu = () => {
 
 const printMousePos = (event) => {
     var menuMobile = document.getElementById("nav");
-    if (menuMobile.style.width === "230px" && event.clientX>230) { 
+    if (menuMobile && menuMobile.style.width === "230px" && event.clientX>230) { 
         closeLeftMenu();
     }
 }

@@ -72,20 +72,22 @@ const Pages = () => {
         );
     }
     useEffect(() => {
-        if (window.location.search.length === 11) {
-            setID(window.location.search.substring(6));
+        if (window.location.search.length > 11) {
+            setID(window.location.search.substring(8));
         }
     });
 
     return (
         <>
         <div id="home" className="home">
-            <div className="names">
-                HANNY & JAIME
+             <div className="names">
+                <div className="title-name">
+                    HANNY & JAIME
+                </div>
+                <div className="fecha">
+                    Sábado 26 de diciembre 2020
+                </div>
             </div>
-            <span className="fecha"><br></br>
-                Sábado 26 de diciembre 2020
-            </span>
         </div>
         <div id="confirm" className="confirm">
             <div className="confirm-container">
