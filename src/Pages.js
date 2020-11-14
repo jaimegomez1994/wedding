@@ -44,24 +44,15 @@ const Pages = () => {
     const submitHandlerConfirm = (e) => { 
         e.preventDefault();
         
-        var cont = 0;
-         db.collection("invitados")
-                .get()
-             .then((querySnapshot) => {
-                querySnapshot.docs.map(row => {
-                    if (row.id === id) {
-                        cont = cont + 1;
-                        setInvitados(row.data().invitados);
-                    }
-                });
-                if (cont <= 0) {
-                    setDisplayError(true);
-                } else {
-                    setDisplayError(false);
-                    hideMenusFromConfirm();
-                }
-                 
-            });
+        db.collection("invitados").doc(id || "undefined").get().then((querySnapshot) => {
+            if (querySnapshot.data()) {
+                setInvitados(querySnapshot.data().invitados);
+                setDisplayError(false);
+                hideMenusFromConfirm();
+            } else { 
+                setDisplayError(true);
+            }
+        })
 
     }
     const submitHandlerConfirmList = (e) => { 
@@ -175,7 +166,7 @@ const Pages = () => {
                     </div>
                     <div className="iglesia-mapa">
                         <a href="http://maps.google.com/?q=Catedral Metropolitana de Monterrey">
-                            Ver direccion
+                            Ver mapa
                         </a>
                     </div>
                 </div>
@@ -196,7 +187,7 @@ const Pages = () => {
                     </div>
                     <div className="iglesia-mapa">
                         <a href="http://maps.google.com/?q=crowne plaza monterrey centro">
-                            Ver direccion
+                            Ver mapa
                         </a>
                     </div>
                 </div>
